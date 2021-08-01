@@ -12,7 +12,7 @@ function inputvalidation(){
     errormessage.style.display = "none";
     if(billamount.value > 0)
     {
-        if(Number(cashGiven.value) > Number(billamount.value))
+        if(Number(cashGiven.value) >= Number(billamount.value))
         {
             const refund = cashGiven.value - billamount.value;
             calculateNotes(refund);
