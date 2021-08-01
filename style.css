@@ -1,0 +1,81 @@
+body{
+    background-color: rgba(14, 68, 32, 0.932);
+}
+.heading{
+    text-align: center;
+    color: white;
+}
+.description{
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.container-center{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 10px;
+    padding: 1rem 0.5rem;
+}
+.bill ,.cash{
+    color:rgb(31, 187, 153);
+    text-align: center;
+    margin: 5px 5px;
+    padding: 5px 5px;
+}
+#cash-given{
+    margin-bottom: 30px;
+}
+#check-btn{
+    width: 15vw;
+    height: 5vh;
+    border: 2px solid black;
+    margin: auto;
+    background-color: rgb(31, 187, 153);
+}
+.input{
+    width: 50vw;
+    height: 5vh;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: auto;
+    outline: none;
+}
+#error{
+    color: red;
+    text-align: center;
+    font-size: large;
+}
+
+.cap{
+    color: rgb(31, 187, 153);
+    margin: 10px 10px;
+}
+.notes{
+    color:black;
+    border: 2px solid black;
+    background-color: rgb(31, 187, 153);
+}
+.row-span{
+    color: black;
+    border: 2px solid black;
+    background-color: rgb(31, 187, 153);
+}
+.exchange{
+    color: black;
+    border: 2px solid black;
+    background-color: rgb(31, 187, 153);
+    padding: 1px 10px;
+}
+.table{
+    width: 100%;
+    margin: auto;
+    padding: 10px 10px;
+}
+td{
+    text-align: center;
+    border: 2px solid black;
+    padding: 12px 2px;
+    background-color: white;
+    
+    
+}
