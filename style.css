@@ -49,6 +49,11 @@ body{
 .cap{
     color: rgb(31, 187, 153);
     margin: 10px 10px;
+    margin: auto;
+    width: 100vw;
+    padding-bottom: 5px;
+}
+
 }
 .notes{
     color:black;
@@ -67,9 +72,11 @@ body{
     padding: 1px 10px;
 }
 .table{
-    width: 100%;
-    margin: auto;
-    padding: 10px 10px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    width: 20%;
+    padding: 10px 30px;
 }
 td{
     text-align: center;
