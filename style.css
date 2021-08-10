@@ -49,11 +49,6 @@ body{
 .cap{
     color: rgb(31, 187, 153);
     margin: 10px 10px;
-    margin: auto;
-    width: 100vw;
-    padding-bottom: 5px;
-}
-
 }
 .notes{
     color:black;
@@ -77,6 +72,11 @@ body{
     justify-content: center;
     width: 20%;
     padding: 10px 30px;
+}
+.cap{
+    margin: auto;
+    width: 100vw;
+    padding-bottom: 5px;
 }
 td{
     text-align: center;
